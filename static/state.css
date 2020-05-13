@@ -1,0 +1,52 @@
+:root{
+
+    font-size :16px;
+    font-family:'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+
+    --bg-primary: #000000;
+    --bg-secondary: ;
+    --text-primary: #f00;
+    --text-secondary: orange;
+
+}
+
+body {
+    background-color: var(--bg-primary);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:var(--text-primary);
+    position: center;
+}
+
+.container {
+    color: var(--text-primary);
+    display: flex;
+
+    flex-direction: row;
+    justify-content:center ;
+    justify-content:space-between;
+    justify-content: space-around;
+
+    align-items: center:
+}
+
+.item{
+    display:flex;
+    flex-direction :column;
+    color: var(--text-primary);
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMain {
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+	align-items:center;
+}
+
