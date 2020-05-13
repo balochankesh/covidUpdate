@@ -1,23 +1,30 @@
 :root{
 
     font-size :16px;
-    font-family:'Alfa Slab One', cursive;
+    font-family:'Press Start 2P', cursive;
     margin: 0;
     padding: 0;
 
-    --bg: #000000;
+    --bg-primary: #000000;
+    --bg-secondary: ;
     --text-primary: #f00;
-    --text-primary2: orange;
+    --text-secondary: orange;
 
 }
 
+body {
+    background-color: var(--bg-primary);
+    margin: 0;
+    padding: 0;
+}
+
 h1{
-    color:orange;
+    color:var(--text-primary);
     align: center;
 }
 
 .container {
-    color: var(--text-primary1);
+    color: var(--text-primary);
     display: flex;
 
     flex-direction: row;
@@ -32,15 +39,13 @@ h1{
     display:flex;
     flex-direction :column;
     color: var(--text-primary);
+    justify-content: center;
+    align-items: center;
 }
 
 .containerMain {
     display: flex;
     justify-content:center;
     flex-direction:column;
-}
-
-body {
-    background-color: var(--bg);
 }
 
