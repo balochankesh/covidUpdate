@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>{{state}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="solid.css">
 
     <link rel="stylesheet" href="state.css">
 </head>
 
 <body>
     <main class="containerMain">
-        <h1>{{state}}</h1>
+        <h1>{{state}}<i class="fas fa-angle-double-right"></i></h1>
         <div class = "container">
             <div class="item"><b>CONFIRMED: </b>{{conf}}</div>
-            <div class="item"><b>DEATHS: </b>{{deaths}}</div>
+            <div class="item"><b>DEATHS: </b>{{deaths}}<i class="fas fa-skull-crossbones"></i></div>
             <div class="item"><b>CURED: </b>{{cured}}</div>
         </div>
     </main>
