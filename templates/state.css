@@ -1,0 +1,26 @@
+.container {
+    color: yellow;
+    display: flex;
+
+    flex-direction: row;
+    justify-content:center ;
+    justify-content:space-between;
+    justify-content: space-around;
+
+    align-items: center:
+}
+
+.item{
+    display:flex;
+    flex-direction :column;
+
+}
+
+.containerMain {
+    
+}
+
+body {
+    background-color:#001628;
+}
+

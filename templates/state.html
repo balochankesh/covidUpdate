@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>{{state}}</title>
+
+    <link rel="stylesheet" href="state.css">
 </head>
+
 <body>
-    <main>
+    <main class="containerMain">
         <h1>{{state}}</h1>
-        <div>
-            <h3><b>CONFIRMED: </b>{{conf}}</h3>
-            <h3><b>DEATHS: </b>{{deaths}}</h3>
-            <h3><b>CURED: </b>{{cured}}</h3>
+        <div class = "container">
+            <div class="item"><b>CONFIRMED: </b>{{conf}}</div>
+            <div class="item"><b>DEATHS: </b>{{deaths}}</div>
+            <div class="item"><b>CURED: </b>{{cured}}</div>
         </div>
     </main>
 </body>
