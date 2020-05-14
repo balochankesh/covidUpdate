@@ -4,20 +4,22 @@
             <title>
                 covid daily update
             </title>
+            <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="{{url_for('static',filename='state.css')}}">
         </head>
-        <body>
+        <body class= "containerMain"> 
             <header>
                 <h1>
                     COVID DAILY
                 </h1>
             </header>
             
-            <main>
-                <form action="#" id="state-form", method="post">
-                    <label for="state">enter the name of the state</label>
+            <main class="container">
+                <form action="#" class='item' id="state-form", method="post">
+                    <label class="item"  for="state">enter the name of the state</label>
                     
-                    <input type="text" method="post" name="state" id="state">
-                    <input type="submit" value="submit">
+                    <input class="item" type="text" method="post" name="state" id="inputBox">
+                    <input class="item" type="submit" value="submit" id="submitBox">
                 </form>
             </main>
 
