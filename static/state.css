@@ -2,8 +2,6 @@
 
     font-size :16px;
     font-family:'Press Start 2P', cursive;
-    margin: 0;
-    padding: 0;
 
     --bg-primary: #000000;
     --bg-secondary: ;
@@ -14,7 +12,8 @@
 
 body {
     background-color: var(--bg-primary);
-    margin: 0;
+    margin-top: 10%;
+    margin-bottom:  ;
     padding: 0;
 }
 
@@ -34,7 +33,6 @@ h1{
     align-items: center;
 
     justify-content: center;
-    align-items: space-between;
 }
 
 
@@ -63,7 +61,7 @@ h1{
     font-size: 4;
     color:var(--text-primary);
     background-color: var(--bg-primary);
-    border-color:red;
+    border-color:var(--text-primary);
     margin-top:1rem;
 }
 
@@ -72,5 +70,10 @@ h1{
      font-size: 4;                    
     color:var(--text-primary);
     background-color: var(--bg-primary);
-     border-color:red; 
+     border-color:var(--text-primary); 
+}
+
+
+span {
+    margin-top: 1rem;
 }
