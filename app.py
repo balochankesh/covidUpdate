@@ -12,7 +12,11 @@ def home():
     if request.method == "POST":
         se = request.form["state"]
 
-        return redirect(url_for("state",state=se))
+        try:
+            return redirect(url_for("state",state=se))
+
+        except requests.exceptions.RequestException as e:
+            return redirect(url_for("home"))
     else:
         return render_template("home.html")
 
